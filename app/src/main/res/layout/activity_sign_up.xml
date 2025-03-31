@@ -6,29 +6,21 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/ed_username"
+        android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username" />
 
     <EditText
-        android:id="@+id/ed_password"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword" />
 
-    <EditText
-        android:id="@+id/ed_confirm_pwd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Confirm Password"
-        android:inputType="textPassword" />
-
     <Button
-        android:id="@+id/btn_create_user"
+        android:id="@+id/btnCreateUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create Account" />
-
+        android:text="CREATE USER" />
 </LinearLayout>
