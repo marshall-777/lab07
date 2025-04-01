@@ -9,5 +9,8 @@
         android:id="@+id/btnLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGOUT" />
+        android:text="LOGOUT"
+        android:background="@drawable/rounded_button_red"
+        android:textColor="@android:color/white"/>
+
 </LinearLayout>

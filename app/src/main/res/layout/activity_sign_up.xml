@@ -22,5 +22,8 @@
         android:id="@+id/btnCreateUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CREATE USER" />
+        android:text="CREATE USER"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
 </LinearLayout>
